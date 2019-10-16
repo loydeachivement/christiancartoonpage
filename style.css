@@ -7,9 +7,9 @@ text-align: center;}
 
 #bgimage{
 	background-image: url("img/img7.jpg");
-	/*background-repeat: no-repeat;
-	background-size: 500px 300px;
-	background-position: center;*/
+	background-repeat: no-repeat;
+	background-size: 450px 300px;
+	background-position: center;
 
 }
 
