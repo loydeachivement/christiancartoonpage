@@ -1,0 +1,152 @@
+body{background-color: #ffb3ff}
+header{border: solid; color:  #ffcccc;}
+
+p{padding: 5px 5px;
+color: black;
+text-align: center;}
+
+#bgimage{
+	background-image: url("img/img7.jpg");
+	/*background-repeat: no-repeat;
+	background-size: 500px 300px;
+	background-position: center;*/
+
+}
+
+p:hover{
+	background-color: #660066;
+}
+
+#anim1{
+	width: 120px;
+	height: 170px;
+	background-color: green;
+	position: relative;
+	-webkit-animation: mymove 5s ;
+	animation: mymove 5s ;
+}
+
+@-webkit-keyframes mymove{
+	from{bottom: 0px;}
+	to{bottom: 700px;}
+}
+@keyframes mymove{
+	from{bottom: 700px;}
+	to{bottom:  0px;}
+}
+
+
+#anim{
+	width: 120px;
+	height: 150px;
+	background-color: green;
+	position: relative;
+	-webkit-animation: loyde 5s ;
+	animation: loyde 5s ;
+}
+
+@-webkit-keyframes loyde{
+	from{left: : 0px;}
+	to{left: 200px;}
+}
+@keyframes loyde{
+	from{left: 0px;}
+	to{left: 200px;}
+}
+
+.anim_box{
+	width: 70px;
+	height: 70px;
+	background-color: yellow;
+	transform: rotate(35deg);
+}
+.anim_box:hover{
+	background-color: white
+}
+
+#anim1,#anim{
+	padding: 5px 5px;
+}
+
+/*Short story which will link to the main cartoon page*/
+#history1{
+	background-color: red;
+}
+#history2{
+	background-color: yellow;
+
+}
+
+footer{
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+/*
+#anim{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 2s;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: -2s;
+}
+@-webkit-keyframes example{
+	0% {
+		background-color: red;
+		left: 0px; top: 0px;
+	}
+
+	25% {
+		background-color: yellow;
+		left: 200px; top: 0px;
+	}
+
+	50%{
+		background-color: blue;
+		left: 200px; top: 200px;
+	}
+
+	75%{
+		background-color: green;
+		left: 0px; top: 200px;
+	}
+
+	100%{
+		background-color: red;
+		left: 0px; top: 0px;
+	}
+}
+
+
+@keyframes example{
+	0% {
+		background-color: red;
+		left: 0px; top: 0px;
+	}
+
+	25% {
+		background-color: yellow;
+		left: 200px; top: 0px;
+	}
+
+	50%{
+		background-color: blue;
+		left: 200px; top: 200px;
+	}
+
+	75%{
+		background-color: green;
+		left: 0px; top: 200px;
+	}
+
+	100%{
+		background-color: red;
+		left: 0px; top: 0px;
+	}
+}*/
