@@ -1,0 +1,230 @@
+body{background-color: yellow/*#ffb3ff*/}
+header{border: solid; color:  #ffcccc;}
+
+.menuStyle{padding: 5px 5px;
+color: black;
+text-align: center;}
+
+#bgimage{
+	background-image: url("img/img1.jpeg");
+	background-repeat: no-repeat;
+	background-size: 800px 300px;
+	background-position: center;
+
+
+}
+
+.menuStyle:hover{
+	background-color: #660066;
+}
+
+#anim1{
+	width: 120px;
+	height: 170px;
+	background-color: green;
+	position: relative;
+	-webkit-animation: mymove 5s ;
+	animation: mymove 5s ;
+}
+
+@-webkit-keyframes mymove{
+	from{bottom: 0px;}
+	to{bottom: 700px;}
+}
+@keyframes mymove{
+	from{bottom: 700px;}
+	to{bottom:  0px;}
+}
+
+
+#anim{
+	width: 120px;
+	height: 150px;
+	background-color: green;
+	position: relative;
+	-webkit-animation: loyde 5s ;
+	animation: loyde 5s ;
+}
+
+@-webkit-keyframes loyde{
+	from{left: : 0px;}
+	to{left: 200px;}
+}
+@keyframes loyde{
+	from{left: 0px;}
+	to{left: 200px;}
+}
+
+.anim_box{
+	width: 70px;
+	height: 70px;
+	background-color: yellow;
+	transform: rotate(35deg);
+}
+.anim_box:hover{
+	background-color: white
+}
+
+#anim1,#anim{
+	padding: 5px 5px;
+}
+
+/*cover page design*/
+/*.cover_page{
+	background-color: black;*/
+}
+.cover_text{
+	font-size: 65px;
+}
+.button_cover{
+	background-color: #0066cc;
+	border: none;
+	padding: 5px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 12px
+
+}
+.button_cover:hover {
+	background: green/*#0055cc*/;
+}
+footer{
+	background-color: #777;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+/*end of cover page design*/
+
+
+/*Animation of the cover page*/
+#container_cover{
+	position: relative;
+	-webkit-animation: mymove 5s ;
+	animation: mymove 5s ;
+}
+
+@-webkit-keyframes mymove{
+	from{bottom: 0px;}
+	to{bottom: 700px;}
+}
+@keyframes mymove{
+	from{bottom: 700px;}
+	to{bottom:  0px;}
+}
+
+#design{
+	background: #cccc00;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 25px
+}
+
+#hist1{
+	width: 150px;
+	height: 100px;
+	border: 4px solid #351;
+	border-radius: 10px;
+	margin-top: 5px;
+}
+#designStyle{
+
+	width: 180px;
+	height: 150px;
+	background-color: #00b300;
+	margin-left: 10px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+h4{
+	color: black;
+}
+.home{
+	border: solid white;
+	background: green;
+	color: black;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.home:hover{
+	background-color: #660066;
+	color: white;
+}
+
+/*Eand of the animation of the cover page*/
+#bgstyle{
+	background: #cccc00;
+	margin-left: 30px;
+}
+
+/*
+#anim{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	-webkit-animation-name: example;
+	-webkit-animation-duration: 4s;
+	-webkit-animation-delay: 2s;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-delay: -2s;
+}
+@-webkit-keyframes example{
+	0% {
+		background-color: red;
+		left: 0px; top: 0px;
+	}
+
+	25% {
+		background-color: yellow;
+		left: 200px; top: 0px;
+	}
+
+	50%{
+		background-color: blue;
+		left: 200px; top: 200px;
+	}
+
+	75%{
+		background-color: green;
+		left: 0px; top: 200px;
+	}
+
+	100%{
+		background-color: red;
+		left: 0px; top: 0px;
+	}
+}
+
+
+@keyframes example{
+	0% {
+		background-color: red;
+		left: 0px; top: 0px;
+	}
+
+	25% {
+		background-color: yellow;
+		left: 200px; top: 0px;
+	}
+
+	50%{
+		background-color: blue;
+		left: 200px; top: 200px;
+	}
+
+	75%{
+		background-color: green;
+		left: 0px; top: 200px;
+	}
+
+	100%{
+		background-color: red;
+		left: 0px; top: 0px;
+	}
+}*/
